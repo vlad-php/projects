@@ -1,0 +1,19 @@
+<?php
+
+class NewsController
+{
+
+	public function actionIndex()
+	{
+		echo'list news';
+		return true;
+	}
+	
+	public function actionView($params)
+	{
+		echo $params[0];
+		echo $params[1];
+		return true;
+	}
+
+}
